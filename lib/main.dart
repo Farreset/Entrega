@@ -16,8 +16,8 @@ class MyApp extends StatelessWidget {
               backgroundColor: Colors.blue,
               title: const Text('TAG'),
             ),
-            body: Center(
-              child: Image(image: AssetImage('image/background.png')),
+            body: const Center(
+              child: Image(image: AssetImage('../image/background.png')),
             )
 
         )
